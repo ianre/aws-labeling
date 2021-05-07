@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>73951</id>
+      <name>vendor_demo</name>
+      <size>7</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-05-06 04:27:21.804535+01:00</created>
+      <updated>2021-05-06 04:50:01.996501+01:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>6</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>R-Grasper</name>
+          <color>#ffcc33</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>needle_tip</name>
+          <color>#b83df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>needle_end</name>
+          <color>#3d3df5</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>L-Grasper</name>
+          <color>#66ff66</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>115743</id>
+          <start>0</start>
+          <stop>6</stop>
+          <url>http://cvat.org/?id=115743</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>ianre</username>
+        <email>ir6mp@virginia.edu</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-05-06 04:50:48.352049+01:00</dumped>
+  </meta>
+  <image id="6" name="frame_0006.jpeg" width="640" height="480">
+    <polygon label="R-Grasper" occluded="0" source="manual" points="397.80,313.58;386.27,317.66;388.31,333.30;381.85,343.84;384.54,357.44;414.83,378.18;438.29,340.78;425.37,329.56;402.25,327.18" z_order="0">
+    </polygon>
+    <polygon label="L-Grasper" occluded="0" source="manual" points="147.60,249.32;121.76,269.04;110.54,264.28;84.70,266.32;72.46,270.40;78.58,320.38;111.22,319.70;129.24,313.24;142.16,282.30;160.18,264.62;157.76,256.80" z_order="0">
+    </polygon>
+    <points label="needle_tip" occluded="0" source="manual" points="245.85,296.92" z_order="0">
+    </points>
+    <points label="needle_end" occluded="0" source="manual" points="156.10,272.10" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="frame_0005.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="128.15,238.31;105.14,257.41;95.84,253.00;62.55,253.98;46.88,260.83;69.89,318.60;116.40,303.43;118.85,272.58;143.33,255.45" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="322.52,325.95;312.24,328.89;318.60,350.92;316.65,370.50;333.78,386.66;356.30,398.90;376.87,361.69;353.86,344.06;334.27,343.08" z_order="0">
+    </polygon>
+    <points label="needle_end" occluded="0" source="manual" points="218.73,292.17" z_order="0">
+    </points>
+    <points label="needle_tip" occluded="0" source="manual" points="134.03,264.26" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="frame_0004.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="130.31,232.34;104.36,250.45;90.65,245.07;57.36,253.88;67.15,304.31;109.74,296.96;122.47,271.51;141.08,247.52" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="263.48,358.65;249.28,360.61;262.99,395.86;263.48,420.83;307.54,451.19;312.44,423.28;330.55,411.04;311.95,395.86;282.08,386.56" z_order="0">
+    </polygon>
+    <points label="needle_tip" occluded="0" source="manual" points="139.61,255.35" z_order="0">
+    </points>
+    <points label="needle_end" occluded="0" source="manual" points="214.52,286.19" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="frame_0003.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="127.88,235.06;102.59,250.57;89.12,245.67;56.08,251.79;63.83,301.57;99.73,301.97;116.87,288.92;118.09,266.89;140.12,249.34" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="444.90,320.74;433.06,322.78;435.10,349.71;427.35,362.77;451.42,395.41;477.94,401.12;493.86,346.04;462.03,338.29;455.91,341.55" z_order="0">
+    </polygon>
+    <points label="needle_end" occluded="0" source="manual" points="223.65,291.98" z_order="0">
+    </points>
+    <points label="needle_tip" occluded="0" source="manual" points="134.35,262.02" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="frame_0002.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="123.21,241.00;99.66,257.60;73.22,254.17;49.23,258.58;68.37,318.85;106.07,310.04;114.39,281.59;136.87,255.64" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="313.12,339.36;307.29,346.22;309.74,359.98;305.83,374.17;315.62,393.76;339.12,398.60;362.13,363.89;343.53,350.62;324.87,350.62" z_order="0">
+    </polygon>
+    <points label="needle_end" occluded="0" source="manual" points="211.77,298.24" z_order="0">
+    </points>
+    <points label="needle_tip" occluded="0" source="manual" points="129.52,269.40" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="frame_0001.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="122.06,231.71;96.90,247.69;76.50,240.21;49.30,249.73;56.44,303.11;96.56,296.65;111.18,274.21;127.84,243.95" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="264.89,348.09;271.35,373.93;271.01,390.93;307.39,424.25;308.41,392.63;329.49,379.37;305.69,366.45;292.77,365.43;273.05,345.37" z_order="0">
+    </polygon>
+    <points label="needle_tip" occluded="0" source="manual" points="122.37,258.60" z_order="0">
+    </points>
+    <points label="needle_end" occluded="0" source="manual" points="201.25,284.44" z_order="0">
+    </points>
+  </image>
+  <image id="0" name="frame_0000.jpeg" width="640" height="480">
+    <polygon label="L-Grasper" occluded="0" source="manual" points="117.67,235.23;96.51,250.50;77.54,246.39;61.03,251.91;67.26,303.44;112.79,304.44;124.54,282.29;113.26,273.12;127.30,241.45" z_order="0">
+    </polygon>
+    <polygon label="R-Grasper" occluded="0" source="manual" points="283.77,358.15;288.97,385.64;269.65,365.58;283.77,392.32;284.51,407.18;323.15,443.59;345.44,395.30;316.46,379.69;301.60,381.18" z_order="0">
+    </polygon>
+    <points label="needle_end" occluded="0" source="manual" points="195.35,287.56" z_order="0">
+    </points>
+    <points label="needle_tip" occluded="0" source="manual" points="127.00,261.55" z_order="0">
+    </points>
+  </image>
+</annotations>
