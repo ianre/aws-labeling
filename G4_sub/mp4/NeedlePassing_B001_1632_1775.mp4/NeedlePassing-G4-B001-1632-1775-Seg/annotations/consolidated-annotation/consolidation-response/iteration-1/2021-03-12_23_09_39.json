@@ -1,1 +1,38 @@
-[{"datasetObjectId":"2","consolidatedAnnotation":{"content":{"NeedlePassing-G4-B001-1632-1775-Seg-ref":"s3://img-test-train/JIGSAWS_needlepassing/G4_sub/mp4/NeedlePassing_B001_1632_1775.mp4/NeedlePassing-G4-B001-1632-1775-Seg/annotations/consolidated-annotation/output/2_2021-03-12T23:08:53.773360.png","NeedlePassing-G4-B001-1632-1775-Seg-ref-metadata":{"internal-color-map":{"0":{"class-name":"BACKGROUND","hex-color":"#ffffff","confidence":0.85406},"1":{"class-name":"L-Grasper","hex-color":"#2ca02c","confidence":0.85406},"2":{"class-name":"R-Grasper","hex-color":"#1f77b4","confidence":0.85406},"3":{"class-name":"Needle Point","hex-color":"#ff7f0e","confidence":0.85406}},"type":"groundtruth/semantic-segmentation","human-annotated":"yes","creation-date":"2021-03-12T23:08:53.831344","job-name":"labeling-job/needlepassing-g4-b001-1632-1775-seg"}}}}]
+[
+  {
+    "datasetObjectId": "2",
+    "consolidatedAnnotation": {
+      "content": {
+        "NeedlePassing-G4-B001-1632-1775-Seg-ref": "s3://img-test-train/JIGSAWS_needlepassing/G4_sub/mp4/NeedlePassing_B001_1632_1775.mp4/NeedlePassing-G4-B001-1632-1775-Seg/annotations/consolidated-annotation/output/2_2021-03-12T23:08:53.773360.png",
+        "NeedlePassing-G4-B001-1632-1775-Seg-ref-metadata": {
+          "internal-color-map": {
+            "0": {
+              "class-name": "BACKGROUND",
+              "hex-color": "#ffffff",
+              "confidence": 0.85406
+            },
+            "1": {
+              "class-name": "L-Grasper",
+              "hex-color": "#2ca02c",
+              "confidence": 0.85406
+            },
+            "2": {
+              "class-name": "R-Grasper",
+              "hex-color": "#1f77b4",
+              "confidence": 0.85406
+            },
+            "3": {
+              "class-name": "Needle Point",
+              "hex-color": "#ff7f0e",
+              "confidence": 0.85406
+            }
+          },
+          "type": "groundtruth/semantic-segmentation",
+          "human-annotated": "yes",
+          "creation-date": "2021-03-12T23:08:53.831344",
+          "job-name": "labeling-job/needlepassing-g4-b001-1632-1775-seg"
+        }
+      }
+    }
+  }
+]
