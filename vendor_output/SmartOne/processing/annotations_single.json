@@ -1,0 +1,95 @@
+[
+  {
+    "id": 220,
+    "annotations": [
+      {
+        "id": 47,
+        "completed_by": {
+          "id": 6,
+          "email": "tino-ce@smartone-group.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "state": {},
+        "result": [
+          {
+            "original_width": 640,
+            "original_height": 480,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.8492569002123143,
+              "y": 65.43909348441926,
+              "width": 1.0615711252653928,
+              "keypointlabels": ["Needle end"]
+            },
+            "id": "1LW6GgctNt",
+            "from_name": "tag",
+            "to_name": "image",
+            "type": "keypointlabels"
+          },
+          {
+            "original_width": 640,
+            "original_height": 480,
+            "image_rotation": 0,
+            "value": {
+              "x": 14.437367303609342,
+              "y": 65.43909348441926,
+              "width": 1.0615711252653928,
+              "keypointlabels": ["Needle Tip"]
+            },
+            "id": "wxJ821SG1w",
+            "from_name": "tag",
+            "to_name": "image",
+            "type": "keypointlabels"
+          },
+          {
+            "value": {
+              "points": [
+                [48.40764331210192, 65.1558073654391],
+                [50.74309978768577, 64.58923512747874],
+                [52.22929936305732, 67.70538243626062],
+                [56.26326963906581, 67.13881019830028],
+                [58.3864118895966, 70.8215297450425],
+                [60.2972399150743, 69.40509915014162],
+                [67.72823779193206, 72.52124645892351],
+                [79.61783439490446, 77.33711048158641],
+                [90.44585987261146, 82.43626062322946],
+                [99.36305732484077, 85.26912181303116],
+                [99.78768577494691, 99.43342776203966],
+                [89.59660297239915, 98.01699716713881],
+                [66.87898089171975, 84.70254957507082],
+                [53.92781316348195, 76.20396600566572],
+                [49.681528662420384, 72.80453257790369]
+              ],
+              "polygonlabels": ["Right grasper"]
+            },
+            "original_width": 640,
+            "original_height": 480,
+            "image_rotation": 0,
+            "id": "TjqqeNeOkI",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "polygonlabels"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-05-10T13:43:10.829068Z",
+        "updated_at": "2021-05-10T14:33:21.876460Z",
+        "lead_time": 1106.234,
+        "prediction": {},
+        "result_count": 0,
+        "task": 220
+      }
+    ],
+    "predictions": [],
+    "file_upload": "Suturing_D002_428_522_frame_0001_h2wtF7j.jpeg",
+    "data": {
+      "image": "/data/upload/Suturing_D002_428_522_frame_0001_h2wtF7j.jpeg"
+    },
+    "meta": {},
+    "created_at": "2021-05-10T12:36:49.619229Z",
+    "updated_at": "2021-05-10T14:33:21.852641Z",
+    "project": 14
+  }
+]
