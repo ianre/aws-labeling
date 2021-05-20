@@ -1,0 +1,4 @@
+250 50 83 Left-Grasper
+255 0 204 Needle End
+221 255 51 Needle Tip
+51 221 255 Right-Grasper
