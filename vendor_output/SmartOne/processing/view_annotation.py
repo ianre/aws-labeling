@@ -18,11 +18,11 @@ from matplotlib import pyplot as plt
  
  
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../")
+ROOT_DIR = ''
  
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
-dataset_dir = "/home/dataset/coco"
+dataset_dir = "/"
 subset = "train"
 year = "2017"
  
