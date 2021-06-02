@@ -77,6 +77,13 @@ def get_frames():
     cap.release()
     cv2.destroyAllWindows()
 
+def slice_gestures(gestures_path):
+    for(dirpath, dirnames, filenames) in walk(gestures_path):
+        for d in dirnames:
+            dir = os.path.join(gestures_path,d)
+            get_all_frames(dir)
+        break
+
 def get_all_frames(dir):
     '''
     This method extracts the frames one of the files in the directory dir and creates a folder to save all the frames
@@ -112,6 +119,7 @@ def get_all_frames(dir):
                 cv2.imwrite(save_frame, frame)
             cap.release()
             cv2.destroyAllWindows()
+        break
 
 def getIndexString(i):
     if len(str(i)) >= 4:
@@ -172,4 +180,5 @@ print("counting frames of directory:",s0)
 #getFrameCountDir(s0)
 
 print("get_frames for dir:",s0)
-get_all_frames(s0)
+#get_all_frames(s0)
+slice_gestures(root)
