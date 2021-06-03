@@ -11,7 +11,7 @@ global current_file
 global error
 from datetime import datetime
 
-DEBUG = True
+DEBUG = False
 
 from os import listdir
 from os import walk
@@ -21,7 +21,7 @@ from subprocess import check_output
 from subprocess import Popen, PIPE
 
 
-root=r'C:/Users/ianre/Desktop/coda/aws-labeling/cogito-job/slicing_tests/'
+root=r'C:/Users/ianre/Desktop/coda/aws-labeling2/cogito-job/slicing_tests/'
 
 s0=os.path.join(root,"0s")
 s1=os.path.join(root,"1s")
@@ -70,9 +70,9 @@ def get_frames():
             break
         
         if i > frame_skip - 1:
-            cv2.imwrite('C:/Users/ianre/Desktop/coda/aws-labeling/cogito-job/slicing_tests/29s/test_'+str(i)+'.jpg', frame)
+            cv2.imwrite('C:/Users/ianre/Desktop/coda/aws-labeling2/cogito-job/slicing_tests/29s/test_'+str(i)+'.jpg', frame)
             i = 0
-            print('C:/Users/ianre/Desktop/coda/aws-labeling/cogito-job/slicing_tests/29s/test_'+str(i)+'.jpg')
+            print('C:/Users/ianre/Desktop/coda/aws-labeling2/cogito-job/slicing_tests/29s/test_'+str(i)+'.jpg')
             continue
         i += 1
 
@@ -128,10 +128,12 @@ def sliceAndRecord(dir):
                 #check if directory exists:    
                 
                 if(i==0 or i==tf-1 or keepFrame(i,tf)):
-                    save_frame = os.path.join(video_fold,f.split(".")[0]+"_frame_"+getIndexString(str(i))+".png" )
+                    save_frame = os.path.join(video_fold,"frame_"+getIndexString(str(saved_i))+".png" )
                     #frame_data.append([i , "frame_"+getIndexString(str(i)), True])
                     frame_data.append([i ,saved_i])
-                    if not DEBUG:cv2.imwrite(save_frame, frame) 
+                    if not DEBUG:
+                        cv2.imwrite(save_frame, frame) 
+                        print("saved frame:",save_frame)
                     saved_i += 1        
                 else: 
                     #frame_data.append([i , "frame_"+getIndexString(str(i)), ""])
