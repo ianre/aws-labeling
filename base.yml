@@ -1,0 +1,38 @@
+---
+name: ProjectName
+applications:
+- name: my-app
+  image: docker.io/ibmcom/helloworld
+  argument:
+    - "optional-sets arguments for the application"
+  cluster-local: false
+  command: 
+    - "optional- sets commands for the application"
+  concurrency: 100
+  concurrency-target: 1
+  cpu value: 1
+  max-scale: 10
+  min-scale: 0
+  memory: 4G
+  env:
+  - name: TEST
+    value: hello
+  - name: TEST2
+    value: bye
+jobs:
+- name: my-job
+  image: docker.io/ibmcom/firstjob
+  argument:
+  - "optional- sets arguments for the job"
+  array-indices: 0
+  command:
+    - "optional- sets commands for the job"
+  cpu: 1
+  env:
+  - name: name1
+    value: value1
+  ephemeral-storage: 1G
+  #instances: 1 # Both 'array-indices' and 'instances' cannot be specified.
+  maxexecutiontime: 7200
+  memory: 4G
+  retrylimit: 3

@@ -133,7 +133,7 @@ def sliceAndRecord(dir):
                     frame_data.append([i ,saved_i])
                     if not DEBUG:
                         cv2.imwrite(save_frame, frame) 
-                        print("saved frame:",save_frame)
+                        #print("saved frame:",save_frame)
                     saved_i += 1        
                 else: 
                     #frame_data.append([i , "frame_"+getIndexString(str(i)), ""])
@@ -143,7 +143,7 @@ def sliceAndRecord(dir):
                 i += 1
                 
                 #cv2.imwrite('C:/Users/ianre/Desktop/coda/aws-labeling/cogito-job/slicing_tests/29s/test_'+str(i)+'.jpg', frame)
-                
+            
             video_info["frames"] = frame_data
             video_data.append(video_info)
             cap.release()
