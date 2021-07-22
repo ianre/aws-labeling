@@ -1,4 +1,0 @@
-238 234 191 Left-Grasper
-140 120 240 Needle End
-255 96 55 Needle Tip
-250 50 83 Right-Grasper
