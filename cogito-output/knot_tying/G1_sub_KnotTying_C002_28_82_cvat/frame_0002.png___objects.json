@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "lastAction": {
+      "email": "labeler210@cogitotech.in",
+      "timestamp": 1623815927573
+    },
+    "width": 640,
+    "height": 480,
+    "name": "frame_0002.png",
+    "projectId": 52105,
+    "isPredicted": false,
+    "status": "Completed",
+    "pinned": false,
+    "annotatorEmail": null,
+    "qaEmail": null
+  },
+  "comments": [],
+  "tags": [],
+  "instances": [
+    {
+      "type": "polygon",
+      "classId": 325698,
+      "probability": 100,
+      "points": [
+        538.74, 450.52, 539.44, 448.42, 542.94, 447.72, 553.42, 421.86, 559.99,
+        401.68, 550.79, 398.61, 541.54, 398.09, 531.64, 395.93, 525.51, 389.8,
+        510.78, 372.93, 503.79, 363.14, 497.5, 361.04, 492.6, 367.33, 492.6,
+        368.73, 505.89, 390.4, 502.39, 388.31, 495.4, 386.91, 491.91, 389,
+        491.21, 394.6, 496.1, 401.59, 499.59, 402.99, 511.48, 414.87, 511.48,
+        424.66, 516.37, 441.43, 524.76, 451.22
+      ],
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": false,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T04:05:54.342Z",
+      "createdBy": { "email": "labeler210@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-06-16T04:06:44.693Z",
+      "updatedBy": { "email": "labeler210@cogitotech.in", "role": "Admin" },
+      "className": "Right Grasper"
+    },
+    {
+      "type": "polygon",
+      "classId": 325697,
+      "probability": 100,
+      "points": [
+        191.06, 375.24, 207.14, 429.51, 222.55, 423.48, 233.19, 420.52, 241.14,
+        414.84, 245.37, 409.57, 262.76, 409.41, 263.43, 410.08, 298.27, 408.07,
+        301.62, 404.72, 298.27, 398.02, 252.04, 394, 252.04, 387.97, 256.06,
+        385.29, 258.07, 385.29, 292.24, 369.21, 292.24, 362.5, 289.56, 359.82,
+        273.48, 362.5, 258.74, 367.2, 243.99, 369.21, 235.28, 370.55, 233.27,
+        373.23, 229.25, 370.55, 212.5, 369.88, 199.1, 371.22
+      ],
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": false,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T04:04:58.406Z",
+      "createdBy": { "email": "labeler210@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-06-16T04:05:51.136Z",
+      "updatedBy": { "email": "labeler210@cogitotech.in", "role": "Admin" },
+      "className": "Left Grasper"
+    }
+  ]
+}

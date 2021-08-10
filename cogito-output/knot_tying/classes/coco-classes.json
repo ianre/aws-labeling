@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Needle Tip",
+    "id": 325695,
+    "color": "#0fed1d",
+    "attributes": []
+  },
+  {
+    "name": "Needle End",
+    "id": 325696,
+    "color": "#0bf7a9",
+    "attributes": []
+  },
+  {
+    "name": "Left Grasper",
+    "id": 325697,
+    "color": "#254988",
+    "attributes": []
+  },
+  {
+    "name": "Right Grasper",
+    "id": 325698,
+    "color": "#411683",
+    "attributes": []
+  }
+]

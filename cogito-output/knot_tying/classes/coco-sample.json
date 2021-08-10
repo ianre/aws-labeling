@@ -1,0 +1,26 @@
+[
+    {
+      "name": "R-Grasper",
+      "id": 353368,
+      "color": "#ffcc33",
+      "attributes": []
+    },
+    {
+      "name": "needle_tip",
+      "id": 353367,
+      "color": "#b83df5",
+      "attributes": []
+    },
+    {
+      "name": "needle_end",
+      "id": 353366,
+      "color": "#3d3df5",
+      "attributes": []
+    },
+    {
+      "name": "L-Grasper",
+      "id": 353365,
+      "color": "#66ff66",
+      "attributes": []
+    }
+  ]

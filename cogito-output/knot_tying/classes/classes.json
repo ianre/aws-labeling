@@ -1,0 +1,42 @@
+[
+  {
+    "id": 325695,
+    "project_id": 52105,
+    "name": "Needle Tip",
+    "color": "#0fed1d",
+    "count": 0,
+    "createdAt": "2021-06-11T11:15:54.000Z",
+    "updatedAt": "2021-06-11T11:15:54.000Z",
+    "attribute_groups": []
+  },
+  {
+    "id": 325696,
+    "project_id": 52105,
+    "name": "Needle End",
+    "color": "#0bf7a9",
+    "count": 0,
+    "createdAt": "2021-06-11T11:15:54.000Z",
+    "updatedAt": "2021-06-11T11:15:54.000Z",
+    "attribute_groups": []
+  },
+  {
+    "id": 325697,
+    "project_id": 52105,
+    "name": "Left Grasper",
+    "color": "#254988",
+    "count": 3940,
+    "createdAt": "2021-06-11T11:15:54.000Z",
+    "updatedAt": "2021-06-11T11:15:54.000Z",
+    "attribute_groups": []
+  },
+  {
+    "id": 325698,
+    "project_id": 52105,
+    "name": "Right Grasper",
+    "color": "#411683",
+    "count": 4084,
+    "createdAt": "2021-06-11T11:15:54.000Z",
+    "updatedAt": "2021-06-11T11:15:54.000Z",
+    "attribute_groups": []
+  }
+]

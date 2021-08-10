@@ -1,0 +1,102 @@
+{
+  "licenses": [{ "name": "", "id": 0, "url": "" }],
+  "info": {
+    "contributor": "",
+    "date_created": "",
+    "description": "",
+    "url": "",
+    "version": "",
+    "year": ""
+  },
+  "categories": [
+    { "id": 1, "name": "Needle Tip", "supercategory": "" },
+    { "id": 2, "name": "Needle End", "supercategory": "" },
+    { "id": 3, "name": "Left Grasper", "supercategory": "" },
+    { "id": 4, "name": "Right Grasper", "supercategory": "" }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0004.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 2,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0003.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 3,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0002.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 4,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0001.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 5,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0000.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 5,
+      "category_id": 4,
+      "segmentation": [
+        [
+          434.88, 420.69, 413.38, 401.7, 376.47, 397.04, 368.59, 402.06, 324.52,
+          399.55, 318.07, 414.96, 359.99, 421.41, 403.71, 462.97, 435.95,
+          446.85, 434.88, 420.69
+        ]
+      ],
+      "area": 4047.0,
+      "bbox": [318.07, 397.04, 117.88, 65.93],
+      "iscrowd": 0,
+      "attributes": { "occluded": false }
+    },
+    {
+      "id": 2,
+      "image_id": 5,
+      "category_id": 3,
+      "segmentation": [
+        [
+          171.51, 408.39, 184.05, 459.75, 248.85, 427.8, 282.59, 424.51, 301.4,
+          408.99, 263.18, 395.55, 202.86, 394.06
+        ]
+      ],
+      "area": 4654.0,
+      "bbox": [171.51, 394.06, 129.89, 65.69],
+      "iscrowd": 0,
+      "attributes": { "occluded": false }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "lastAction": {
+      "email": "labeler214@cogitotech.in",
+      "timestamp": 1626088730162
+    },
+    "width": 640,
+    "height": 480,
+    "name": "frame_0000.png",
+    "projectId": 52107,
+    "isPredicted": false,
+    "status": "Completed",
+    "pinned": false,
+    "annotatorEmail": null,
+    "qaEmail": null
+  },
+  "comments": [],
+  "tags": [],
+  "instances": [
+    {
+      "type": "point",
+      "classId": 325703,
+      "probability": 100,
+      "x": 467.83,
+      "y": 353.09,
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": true,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T04:01:19.857Z",
+      "createdBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-06-16T04:01:24.989Z",
+      "updatedBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "className": "Needle Tip"
+    },
+    {
+      "type": "point",
+      "classId": 325704,
+      "probability": 100,
+      "x": 460.72,
+      "y": 415.72,
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": true,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T04:01:03.911Z",
+      "createdBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-06-16T04:01:08.737Z",
+      "updatedBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "className": "Needle End"
+    },
+    {
+      "type": "polygon",
+      "classId": 325705,
+      "probability": 100,
+      "points": [
+        226.29, 162.4, 221.07, 164.7, 226.5, 185.05, 225.68, 192.65, 225.96,
+        196.44, 230.84, 198.61, 236.27, 197.65, 239.08, 194.53, 250.31, 195.46,
+        254.99, 194.22, 256.24, 188.6, 255.92, 181.43, 252.49, 178.31, 248.13,
+        176.75, 238.46, 166.45, 233.46, 163.33, 229.41, 162.08
+      ],
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": true,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T03:58:51.370Z",
+      "createdBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-07-12T11:19:51.448Z",
+      "updatedBy": { "email": "labeler214@cogitotech.in", "role": "Admin" },
+      "className": "Left Grasper"
+    },
+    {
+      "type": "polygon",
+      "classId": 325706,
+      "probability": 100,
+      "points": [
+        470.03, 368.81, 465.79, 367.39, 465.08, 365.5, 465.32, 359.84, 466.73,
+        358.19, 486.07, 354.89, 504.24, 342.53, 510.39, 341.3, 521.11, 342.2,
+        526.06, 344.32, 527.01, 345.74, 526.79, 350.6, 522.49, 358.13, 517.11,
+        361.36, 513.52, 365.31, 511.01, 370.33, 509.93, 377.15, 510.65, 383.24,
+        510.29, 386.83, 509.22, 387.91, 501.76, 386.55, 496.54, 383.82, 483.48,
+        370.22
+      ],
+      "groupId": 0,
+      "pointLabels": {},
+      "locked": true,
+      "visible": true,
+      "attributes": [],
+      "trackingId": null,
+      "error": null,
+      "createdAt": "2021-06-16T04:01:34.427Z",
+      "createdBy": { "email": "labeler211@cogitotech.in", "role": "Admin" },
+      "creationType": "Manual",
+      "updatedAt": "2021-07-12T11:20:28.469Z",
+      "updatedBy": { "email": "labeler214@cogitotech.in", "role": "Admin" },
+      "className": "Right Grasper"
+    }
+  ]
+}

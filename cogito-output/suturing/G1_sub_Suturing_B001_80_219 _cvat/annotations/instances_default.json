@@ -1,0 +1,141 @@
+{
+  "licenses": [{ "name": "", "id": 0, "url": "" }],
+  "info": {
+    "contributor": "",
+    "date_created": "",
+    "description": "",
+    "url": "",
+    "version": "",
+    "year": ""
+  },
+  "categories": [
+    { "id": 1, "name": "Needle Tip", "supercategory": "" },
+    { "id": 2, "name": "Needle End", "supercategory": "" },
+    { "id": 3, "name": "Right Grasper", "supercategory": "" },
+    { "id": 4, "name": "Left Grasper", "supercategory": "" }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0009.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 2,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0008.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 3,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0007.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 4,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0006.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 5,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0005.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 6,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0004.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 7,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0003.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 8,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0002.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 9,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0001.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    },
+    {
+      "id": 10,
+      "width": 640,
+      "height": 480,
+      "file_name": "frame_0000.png",
+      "license": 0,
+      "flickr_url": "",
+      "coco_url": "",
+      "date_captured": 0
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 10,
+      "category_id": 4,
+      "segmentation": [[215.76, 165.53, 224.35, 203.33, 267.31, 180.42]],
+      "area": 909.0,
+      "bbox": [215.76, 165.53, 51.55, 37.8],
+      "iscrowd": 0,
+      "attributes": { "occluded": false }
+    },
+    {
+      "id": 2,
+      "image_id": 10,
+      "category_id": 3,
+      "segmentation": [[523.35, 341.38, 455.76, 349.39, 519.34, 395.22]],
+      "area": 1798.0,
+      "bbox": [455.76, 341.38, 67.59, 53.84],
+      "iscrowd": 0,
+      "attributes": { "occluded": false }
+    }
+  ]
+}
